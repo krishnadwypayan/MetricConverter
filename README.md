@@ -24,8 +24,8 @@ cd Assignment2
 ./gradlew clean build
 ``` 
 
-* Next, run the server program - src/main.java/com/example/grpc/GrpcServer.java <br/>
-* Finally, run the client program - src/main.java/com/example/grpc/GrpcClient.java <br/>
+* Next, run the server program - [GrpcServer](https://github.com/krishnadwypayan/MetricConverter/blob/master/src/main/java/com/example/grpc/GrpcServer.java) <br/>
+* Finally, run the client program - [GrpcClient](https://github.com/krishnadwypayan/MetricConverter/blob/master/src/main/java/com/example/grpc/GrpcClient.java) <br/>
 * Input appropriate values for metric conversion.
 
 <hr>
