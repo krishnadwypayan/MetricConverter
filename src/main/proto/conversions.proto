@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+package com.example.grpc;
+
+enum ConversionSystem {
+    cm_to_inches = 0;
+    inches_to_cm = 1;
+    km_to_miles = 2;
+    miles_to_km = 3;
+    celcius_to_fah = 4;
+    fah_to_celcius = 5;
+    mt_to_ft = 6;
+    ft_to_mt = 7;
+    lbs_to_gms = 8;
+    gms_to_lbs = 9;
+}
+
+// request for conversion from client
+message GrpcRequest {
+    double value = 1;
+    ConversionSystem convSys = 2;
+}
+
+// response from the server
+message GrpcResponse {
+    double value = 1;
+}
+
+// The conversion service definition.
+service ConversionService {
+    // convert the request
+    rpc convert (GrpcRequest) returns (GrpcResponse) {}
+}
