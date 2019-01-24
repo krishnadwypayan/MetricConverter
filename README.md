@@ -19,9 +19,9 @@ The various metrics supported currently are:
 ### Setup and Run
 * Open Terminal and run the following commands <br/>
 ```
-git https://github.com/krishnadwypayan/MetricConverter.git
-cd Assignment2
-./gradlew clean build
+$ git https://github.com/krishnadwypayan/MetricConverter.git
+$ cd Assignment2
+$ ./gradlew clean build
 ``` 
 
 * Next, run the server program - [GrpcServer](https://github.com/krishnadwypayan/MetricConverter/blob/master/src/main/java/com/example/grpc/GrpcServer.java) <br/>
