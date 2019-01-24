@@ -1,7 +1,7 @@
 # Metric Converter using gRPC
 
-#### This project provides a service that converts quantities from one metric to another using [gRPC](https://grpc.io/docs/).
-##### The various metrics supported currently are:
+This project provides a service that converts quantities from one metric to another using [gRPC](https://grpc.io/docs/).
+The various metrics supported currently are:
 
 - cm_to_inches <br/>
 - inches_to_cm <br/>
